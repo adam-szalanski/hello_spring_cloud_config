@@ -8,8 +8,8 @@ eureka:
     hostname: localhost
     
     
-microservice:
-  server-microservice:
-    endpoints:
-      endpoint:
-        uri: http://SERVER-MICROSERVICE/owner
+#microservice:
+#  server-microservice:
+#    endpoints:
+#      endpoint:
+#        uri: http://SERVER-MICROSERVICE/owner
