@@ -7,9 +7,3 @@ eureka:
   instance:
     hostname: localhost
     
-    
-#microservice:
-#  server-microservice:
-#    endpoints:
-#      endpoint:
-#        uri: http://SERVER-MICROSERVICE/owner
