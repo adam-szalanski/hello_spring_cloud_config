@@ -8,19 +8,6 @@ eureka:
 spring:
   config:
     activate:
-      on-profile: info,docker
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://registry:8761/eureka/
-  instance:
-    prefer-ip-address: true
-
----
-
-spring:
-  config:
-    activate:
       on-profile: default
 eureka:
   client:
