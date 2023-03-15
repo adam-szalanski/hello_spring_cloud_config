@@ -14,7 +14,7 @@ eureka:
     serviceUrl:
       defaultZone: http://registry:8761/eureka/
   instance:
-    hostname: localhost
+    hostname: REGISTRY-MICROSERVICE
 
 ---
 
