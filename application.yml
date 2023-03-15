@@ -8,7 +8,7 @@ eureka:
 spring:
   config:
     activate:
-      on-profile: docker
+      on-profile: info
 eureka:
   client:
     serviceUrl:
