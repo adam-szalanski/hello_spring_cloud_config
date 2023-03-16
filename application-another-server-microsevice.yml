@@ -1,7 +1,7 @@
 spring:
   config:
     activate:
-      on-profile: another-server-microservice
+      on-profile: another
 springdoc:
   swagger-ui:
     path: /swagger
