@@ -1,8 +1,7 @@
 spring:
-  cloud:
-    config:
-      activate:
-        on-profile: another-server-microservice
+  config:
+    activate:
+      on-profile: another-server-microservice
 springdoc:
   swagger-ui:
     path: /swagger
