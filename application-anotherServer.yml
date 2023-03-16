@@ -1,7 +1,7 @@
 spring:
   config:
     activate:
-      on-profile: another
+      on-profile: anotherServer
 springdoc:
   swagger-ui:
     path: /swagger
