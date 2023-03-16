@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: gatewayServer
+  cloud:
+    gateway:
+      routes:
+        - id: server-service
+          uri: lb://SERVER-MICROSERVICE
+          predicates:
+            - Path=/animal/**, /owner/**
+        - id: another-server-service
+          uri: lb://ANOTHER-SERVER-MICROSERVICE
+          predicates:
+            - Path=/collar/**
