@@ -2,6 +2,8 @@ spring:
   config:
     activate:
       on-profile: gatewayServer
+   server:
+    port: 8989
   cloud:
     gateway:
       routes:
