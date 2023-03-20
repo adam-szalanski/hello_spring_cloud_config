@@ -1,7 +1,7 @@
 spring:
   config:
     activate:
-      on-profile: gatewayServer
+      on-profile: gatewayServer      
   cloud:
     gateway:
       routes:
@@ -13,3 +13,5 @@ spring:
           uri: lb://ANOTHER-SERVER-MICROSERVICE
           predicates:
             - Path=/collar/**
+server:
+  port: 8989
