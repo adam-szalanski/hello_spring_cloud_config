@@ -1,9 +1,9 @@
-server:
-  port: 9100
 spring:
   config:
     activate:
       on-profile: anotherServer
+server:
+  port: 9100
 springdoc:
   swagger-ui:
     path: /swagger
